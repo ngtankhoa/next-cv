@@ -1,5 +1,12 @@
 import Head from 'next/head';
-import { DatePicker, Button } from 'antd';
+import styled from 'styled-components';
+
+const Title = styled.p`
+    font-size: 33px;
+    font-weight: 500;
+    color: red;
+`;
+
 export default function Home() {
     return (
         <div>
@@ -12,8 +19,7 @@ export default function Home() {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <div style={{ minHeight: '100vh' }}>
-                <DatePicker />
-                <Button title='aaa'>aaad</Button>
+                <Title>Toi o day</Title>
             </div>
         </div>
     );
