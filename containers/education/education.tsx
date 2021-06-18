@@ -1,5 +1,9 @@
-import { TitleSession } from 'components';
+import { InformationContainer, TitleSession } from 'components';
 
 export function Education() {
-    return <TitleSession>Education</TitleSession>;
+    return (
+        <InformationContainer>
+            <TitleSession>Education</TitleSession>
+        </InformationContainer>
+    );
 }

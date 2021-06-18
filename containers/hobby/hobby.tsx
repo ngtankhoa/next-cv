@@ -1,5 +1,9 @@
-import { TitleSession } from 'components';
+import { TitleSession, InformationContainer } from 'components';
 
 export function Hobby() {
-    return <TitleSession>Hobby</TitleSession>;
+    return (
+        <InformationContainer>
+            <TitleSession>Hobby</TitleSession>
+        </InformationContainer>
+    );
 }

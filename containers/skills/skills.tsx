@@ -1,5 +1,9 @@
-import { TitleSession } from 'components';
+import { TitleSession, InformationContainer } from 'components';
 
 export function Skills() {
-    return <TitleSession>Skills</TitleSession>;
+    return (
+        <InformationContainer>
+            <TitleSession>Skills</TitleSession>
+        </InformationContainer>
+    );
 }

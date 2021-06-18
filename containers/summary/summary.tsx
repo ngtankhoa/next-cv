@@ -1,9 +1,11 @@
-import { TitleSession } from 'components';
+import { TitleSession, InformationContainer } from 'components';
 
 export function Summary() {
     return (
         <div>
-            <TitleSession>Summary</TitleSession>
+            <InformationContainer>
+                <TitleSession>Summary</TitleSession>
+            </InformationContainer>
         </div>
     );
 }
