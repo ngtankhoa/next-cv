@@ -28,16 +28,17 @@ export default function Home() {
                     flexWrap: 'wrap',
                 }}
             >
-                <div style={{ flexGrow: 0, flexShrink: 0, flexBasis: '20%' }}>
+                <div style={{ flex: 2 }}>
                     <Name>Nguyễn Tấn Khoa</Name>
                     <Image src={avatar} alt='Picture of me.' />
                 </div>
-                <div style={{ flexGrow: 0, flexShrink: 0, flexBasis: '80%' }}>
+                <div style={{ flex: 8 }}>
                     <Summary />
                     <Skills />
                     <Experience />
                     <Education />
                     <Hobby />
+                    <p>Git Flow, Ant Design, Styled-component, Figma, Scrum</p>
                 </div>
             </div>
         </div>
