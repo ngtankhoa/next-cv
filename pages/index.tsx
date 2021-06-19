@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import styled from 'styled-components';
-import Image from 'next/image';
-import avatar from 'public/ava.jpeg';
 import { Summary, Hobby, Skills, Education, Experience } from 'containers';
+import { Main, Sidebar, Content } from 'styles/pages.styled';
 
 const Name = styled.p`
     font-size: 20px;
@@ -21,26 +20,28 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <div
-                style={{
-                    minHeight: '100vh',
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                }}
-            >
-                <div style={{ flex: 2 }}>
+            <Main>
+                <Sidebar>
                     <Name>Nguyễn Tấn Khoa</Name>
-                    <Image src={avatar} alt='Picture of me.' />
-                </div>
-                <div style={{ flex: 8 }}>
+                    <img
+                        src='ava.jpeg'
+                        alt='Picture of me.'
+                        style={{
+                            display: 'block',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                        }}
+                    />
+                </Sidebar>
+                <Content>
                     <Summary />
                     <Skills />
                     <Experience />
                     <Education />
                     <Hobby />
                     <p>Git Flow, Ant Design, Styled-component, Figma, Scrum</p>
-                </div>
-            </div>
+                </Content>
+            </Main>
         </div>
     );
 }

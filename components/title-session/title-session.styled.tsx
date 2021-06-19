@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Title = styled.p`
-    font-weight: 500;
-    font-size: 15;
+const Title = styled.span`
+    font-weight: 700;
+    font-size: 20;
 `;
 export { Title };
