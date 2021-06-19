@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Main = styled.div`
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-wrap: nowrap;
     gap: 15px;
@@ -12,6 +12,7 @@ const Sidebar = styled.div`
 `;
 const Content = styled.div`
     flex: 8;
+    overflow-y: auto;
 `;
 
 export { Main, Sidebar, Content };
