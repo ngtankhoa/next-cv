@@ -2,7 +2,17 @@ import Head from 'next/head';
 import styled from 'styled-components';
 import { Summary, Hobby, Skills, Education, Experience } from 'containers';
 import { Main, Sidebar, Content } from 'styles/pages.styled';
+import { Typography, List } from 'antd';
+import {
+    MailOutlined,
+    PhoneOutlined,
+    GithubOutlined,
+    GitlabOutlined,
+} from '@ant-design/icons';
 
+const { Paragraph, Text } = Typography;
+const { Item } = List;
+const { Meta } = Item;
 const Name = styled.p`
     font-size: 20px;
     font-weight: 500;
@@ -32,6 +42,34 @@ export default function Home() {
                             marginRight: 'auto',
                         }}
                     />
+                    <List>
+                        <Item>
+                            {/* <MailOutlined />
+                            khoant.uit@gmail.com */}
+                            <Meta
+                                avatar={<MailOutlined />}
+                                title='khoant.uit@gmail.com'
+                            />
+                        </Item>
+                        <Item>
+                            <Meta
+                                avatar={<PhoneOutlined />}
+                                title='+84 8 4415 0000'
+                            />
+                        </Item>
+                        <Item>
+                            <Meta
+                                avatar={<GithubOutlined />}
+                                title='github.com/ngtankhoa/'
+                            />
+                        </Item>
+                        <Item>
+                            <Meta
+                                avatar={<GitlabOutlined />}
+                                title='gitlab.com/khoant.uit'
+                            />
+                        </Item>
+                    </List>
                 </Sidebar>
                 <Content>
                     <Summary />
