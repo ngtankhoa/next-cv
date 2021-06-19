@@ -10,14 +10,14 @@ import {
     GitlabOutlined,
 } from '@ant-design/icons';
 
-const { Paragraph, Text } = Typography;
 const { Item } = List;
 const { Meta } = Item;
-const Name = styled.p`
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-`;
+// const Name = styled.p`
+//     font-size: 25px;
+//     font-weight: 500;
+//     text-align: center;
+//     margin-bottom: 0;
+// `;
 
 export default function Home() {
     return (
@@ -32,7 +32,10 @@ export default function Home() {
             </Head>
             <Main>
                 <Sidebar>
-                    <Name>Nguyễn Tấn Khoa</Name>
+                    {/* <Name>Nguyễn Tấn Khoa</Name> */}
+                    <Typography.Title level={2} style={{ textAlign: 'center' }}>
+                        Nguyễn Tấn Khoa
+                    </Typography.Title>
                     <img
                         src='ava.jpeg'
                         alt='Picture of me.'
@@ -44,8 +47,6 @@ export default function Home() {
                     />
                     <List>
                         <Item>
-                            {/* <MailOutlined />
-                            khoant.uit@gmail.com */}
                             <Meta
                                 avatar={<MailOutlined />}
                                 title='khoant.uit@gmail.com'
@@ -60,7 +61,7 @@ export default function Home() {
                         <Item>
                             <Meta
                                 avatar={<GithubOutlined />}
-                                title='github.com/ngtankhoa/'
+                                title='github.com/ngtankhoa'
                             />
                         </Item>
                         <Item>

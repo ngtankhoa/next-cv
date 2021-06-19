@@ -6,7 +6,7 @@ export function Hobby() {
     return (
         <InformationContainer>
             <TitleSession>Hobby</TitleSession>
-            <Paragraph>Gaming, Walking, Music, Distro Hopper</Paragraph>
+            <Paragraph>Gaming, Walking, Music, Linux Distro Hopper.</Paragraph>
         </InformationContainer>
     );
 }

@@ -15,7 +15,7 @@ export function Experience() {
                         description={
                             <Paragraph>
                                 Role: Front-end, Mobile developer <br />
-                                Knowledge archivement: React/Next, Typescript,
+                                Knowledge achievement: React/Next, Typescript,
                                 React Native
                             </Paragraph>
                         }
@@ -29,7 +29,7 @@ export function Experience() {
                                 <Paragraph>
                                     Role: Interns, Back-end web developer
                                     <br />
-                                    Knowledge archivement: HTML, CSS,
+                                    Knowledge achievement: HTML, CSS,
                                     JavaScript, SailsJS, Arduino, RabbitMQ
                                 </Paragraph>
                             </>
