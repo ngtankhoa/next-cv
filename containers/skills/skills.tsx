@@ -19,7 +19,7 @@ export function Skills() {
             <Progress percent={65} />
             <span>Collaborate</span>
             <Progress percent={70} />
-            <span> * using Git Flow, Figma, Asana, Scrum Methodology.</span>
+            <span> * using Git Flow, Figma, Asana, Scrum Methodology,...</span>
         </InformationContainer>
     );
 }

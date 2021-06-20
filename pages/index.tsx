@@ -36,12 +36,14 @@ export default function Home() {
                         Nguyễn Tấn Khoa
                     </Typography.Title>
                     <img
-                        src='ava.jpeg'
+                        src='ava.jpg'
                         alt='Picture of me.'
                         style={{
                             display: 'block',
                             marginLeft: 'auto',
                             marginRight: 'auto',
+                            maxWidth: 300,
+                            maxHeight: 300,
                         }}
                     />
                     <List>
