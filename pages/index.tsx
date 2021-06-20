@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import styled from 'styled-components';
 import { Summary, Hobby, Skills, Education, Experience } from 'containers';
 import { Main, Sidebar, Content } from 'styles/pages.styled';
 import { Typography, List } from 'antd';
@@ -78,7 +77,6 @@ export default function Home() {
                     <Experience />
                     <Education />
                     <Hobby />
-                    <p>Git Flow, Ant Design, Styled-component, Figma, Scrum</p>
                 </Content>
             </Main>
         </div>
