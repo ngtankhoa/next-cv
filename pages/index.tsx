@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Summary, Hobby, Skills, Education, Experience } from 'containers';
-import { Main, Sidebar, Content } from 'styles/pages.styled';
+import { Main, Sidebar, Content, SidebarItem } from 'styles/pages.styled';
 import { Typography, List } from 'antd';
 import {
     MailOutlined,
@@ -31,47 +31,53 @@ export default function Home() {
             </Head>
             <Main>
                 <Sidebar>
-                    {/* <Name>Nguyễn Tấn Khoa</Name> */}
-                    <Typography.Title level={2} style={{ textAlign: 'center' }}>
-                        Nguyễn Tấn Khoa
-                    </Typography.Title>
-                    <img
-                        src='ava.jpg'
-                        alt='Picture of me.'
-                        style={{
-                            display: 'block',
-                            marginLeft: 'auto',
-                            marginRight: 'auto',
-                            maxWidth: 300,
-                            maxHeight: 300,
-                        }}
-                    />
-                    <List>
-                        <Item>
-                            <Meta
-                                avatar={<MailOutlined />}
-                                title='khoant.uit@gmail.com'
-                            />
-                        </Item>
-                        <Item>
-                            <Meta
-                                avatar={<PhoneOutlined />}
-                                title='+84 8 4415 0000'
-                            />
-                        </Item>
-                        <Item>
-                            <Meta
-                                avatar={<GithubOutlined />}
-                                title='github.com/ngtankhoa'
-                            />
-                        </Item>
-                        <Item>
-                            <Meta
-                                avatar={<GitlabOutlined />}
-                                title='gitlab.com/khoant.uit'
-                            />
-                        </Item>
-                    </List>
+                    <SidebarItem>
+                        <Typography.Title
+                            level={2}
+                            style={{ textAlign: 'center' }}
+                        >
+                            Nguyễn Tấn Khoa
+                        </Typography.Title>
+                        <img
+                            src='ava.jpg'
+                            alt='Picture of me.'
+                            style={{
+                                display: 'block',
+                                marginLeft: 'auto',
+                                marginRight: 'auto',
+                                maxWidth: '100%',
+                                height: 'auto',
+                            }}
+                        />
+                    </SidebarItem>
+                    <SidebarItem>
+                        <List>
+                            <Item>
+                                <Meta
+                                    avatar={<MailOutlined />}
+                                    title='khoant.uit@gmail.com'
+                                />
+                            </Item>
+                            <Item>
+                                <Meta
+                                    avatar={<PhoneOutlined />}
+                                    title='+84 8 4415 0000'
+                                />
+                            </Item>
+                            <Item>
+                                <Meta
+                                    avatar={<GithubOutlined />}
+                                    title='github.com/ngtankhoa'
+                                />
+                            </Item>
+                            <Item>
+                                <Meta
+                                    avatar={<GitlabOutlined />}
+                                    title='gitlab.com/khoant.uit'
+                                />
+                            </Item>
+                        </List>
+                    </SidebarItem>
                 </Sidebar>
                 <Content>
                     <Summary />
