@@ -63,8 +63,8 @@ const data: { title: string; percent: number; description: string[] }[] = [
     },
     {
         title: 'English',
-        percent: Math.ceil((835 / 990) * 100),
-        description: ['Reading & Listening liscense'],
+        percent: Math.ceil((835 / 990) * 100) - 15,
+        description: [],
     },
     {
         title: 'Collaborate',
@@ -78,16 +78,26 @@ const data: { title: string; percent: number; description: string[] }[] = [
     },
 ];
 export function Skills() {
+    const colorLength = tagColor.length;
+    let colorIndex = -1;
+
     return (
         <InformationContainer>
             <TitleSession>Skills</TitleSession>
-            {data.map((item) => (
-                <Card hoverable bordered={false}>
+            {data.map((item, index) => (
+                <Card key={index} hoverable bordered={false}>
                     <Typography.Text>{item.title}</Typography.Text>
                     <Progress percent={item.percent} />
-                    {item.description.map((tech, index) => (
-                        <Tag color={tagColor[index]}>{tech}</Tag>
-                    ))}
+                    {item.description.map((tech, index) => {
+                        colorIndex++;
+                        if (colorIndex === colorLength) colorIndex = 0;
+                        console.log(colorIndex);
+                        return (
+                            <Tag key={index} color={tagColor[colorIndex]}>
+                                {tech}
+                            </Tag>
+                        );
+                    })}
                 </Card>
             ))}
         </InformationContainer>
