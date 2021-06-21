@@ -80,6 +80,7 @@ export default function Home() {
                                     title={
                                         <a
                                             href='https://github.com/ngtankhoa'
+                                            rel='noreferrer'
                                             target='_blank'
                                         >
                                             github.com/ngtankhoa
@@ -93,6 +94,7 @@ export default function Home() {
                                     title={
                                         <a
                                             href='https://gitlab.com/khoant.uit'
+                                            rel='noreferrer'
                                             target='_blank'
                                         >
                                             gitlab.com/khoant.uit

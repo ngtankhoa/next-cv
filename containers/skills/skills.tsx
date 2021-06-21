@@ -8,6 +8,7 @@ const data: { title: string; percent: number; description: string[] }[] = [
         percent: 65,
         description: [
             'VS Code',
+            'Yarn',
             'Git Flow',
             'Figma',
             'Asana',
