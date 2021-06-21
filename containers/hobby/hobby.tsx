@@ -1,12 +1,16 @@
 import { TitleSession, InformationContainer } from 'components';
-import { Typography } from 'antd';
+import { Typography, Card } from 'antd';
 
 const { Paragraph } = Typography;
 export function Hobby() {
     return (
         <InformationContainer>
             <TitleSession>Hobby</TitleSession>
-            <Paragraph>Gaming, Walking, Music, Linux Distro Hopper.</Paragraph>
+            <Card hoverable bordered={false}>
+                <Paragraph>
+                    Gaming, Walking, Music, Linux Distro Hopper.
+                </Paragraph>
+            </Card>
         </InformationContainer>
     );
 }
