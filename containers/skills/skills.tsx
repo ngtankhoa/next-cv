@@ -6,7 +6,13 @@ const data: { title: string; percent: number; description: string[] }[] = [
     {
         title: 'Collaborate',
         percent: 65,
-        description: ['Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
+        description: [
+            'VS Code',
+            'Git Flow',
+            'Figma',
+            'Asana',
+            'Scrum Methodology',
+        ],
     },
     {
         title: 'English',
@@ -71,6 +77,7 @@ const data: { title: string; percent: number; description: string[] }[] = [
             'Arch Wiki',
             'ZSH',
             'nvm',
+            'Shell Script',
             'Cron job',
         ],
     },
