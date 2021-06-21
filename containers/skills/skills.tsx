@@ -4,6 +4,19 @@ import { tagColor } from 'styles/theme';
 
 const data: { title: string; percent: number; description: string[] }[] = [
     {
+        title: 'Collaborate',
+        percent: 65,
+        description: ['Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
+    },
+    {
+        title: 'English',
+        percent: Math.ceil((835 / 990) * 100) - 15,
+        description: [
+            'Excellent Listening & Reading skills',
+            'Good at Speaking & Writing',
+        ],
+    },
+    {
         title: 'HTML, CSS',
         percent: 75,
         description: [
@@ -62,32 +75,39 @@ const data: { title: string; percent: number; description: string[] }[] = [
         ],
     },
     {
-        title: 'English',
-        percent: Math.ceil((835 / 990) * 100),
-        description: ['Reading & Listening liscense'],
-    },
-    {
-        title: 'Collaborate',
-        percent: 65,
-        description: ['Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
-    },
-    {
         title: 'Other stuff',
-        percent: 50,
+        percent: 0,
         description: ['SailsJS', 'RabbitMQ', 'Arduino'],
     },
 ];
 export function Skills() {
+    const colorLength = tagColor.length;
+    let colorIndex = -1;
+
     return (
         <InformationContainer>
             <TitleSession>Skills</TitleSession>
-            {data.map((item) => (
-                <Card hoverable bordered={false}>
+            {data.map((item, index) => (
+                <Card key={index} hoverable bordered={false}>
                     <Typography.Text>{item.title}</Typography.Text>
-                    <Progress percent={item.percent} />
-                    {item.description.map((tech, index) => (
-                        <Tag color={tagColor[index]}>{tech}</Tag>
-                    ))}
+                    {item.title !== 'Other stuff' ? (
+                        <Progress
+                            percent={item.percent}
+                            format={(item) => item}
+                        />
+                    ) : (
+                        <br />
+                    )}
+                    {item.description.map((tech, index) => {
+                        colorIndex++;
+                        if (colorIndex === colorLength) colorIndex = 0;
+                        console.log(colorIndex);
+                        return (
+                            <Tag key={index} color={tagColor[colorIndex]}>
+                                {tech}
+                            </Tag>
+                        );
+                    })}
                 </Card>
             ))}
         </InformationContainer>
