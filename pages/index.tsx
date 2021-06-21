@@ -1,5 +1,12 @@
 import Head from 'next/head';
-import { Summary, Hobby, Skills, Education, Experience } from 'containers';
+import {
+    Summary,
+    Hobby,
+    Skills,
+    Education,
+    Experience,
+    Certificates,
+} from 'containers';
 import { Main, Sidebar, Content, SidebarItem } from 'styles/pages.styled';
 import { Typography, List } from 'antd';
 import {
@@ -84,6 +91,7 @@ export default function Home() {
                     <Skills />
                     <Experience />
                     <Education />
+                    <Certificates />
                     <Hobby />
                 </Content>
             </Main>
