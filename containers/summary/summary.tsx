@@ -6,8 +6,8 @@ export function Summary() {
             <InformationContainer>
                 <TitleSession>Summary</TitleSession>
                 <p>
-                    I'm a Middle Junior Web Developer specializing in Front-end
-                    web and Mobile development.
+                    I'm a Mid-Level Web Developer specializing in Front-end web
+                    and Mobile development.
                 </p>
                 <p>
                     In a normal work flow, I receive design from Figma, split
