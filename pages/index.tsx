@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import {
     Summary,
     Hobby,
@@ -45,16 +46,18 @@ export default function Home() {
                         >
                             Nguyễn Tấn Khoa
                         </Typography.Title>
-                        <img
-                            src='ava.jpg'
+                        <Image
+                            src='/ava.jpg'
                             alt='Picture of me.'
-                            style={{
-                                display: 'block',
-                                marginLeft: 'auto',
-                                marginRight: 'auto',
-                                maxWidth: '100%',
-                                height: 'auto',
-                            }}
+                            width={400}
+                            height={400}
+                            // style={{
+                            //     display: 'block',
+                            //     marginLeft: 'auto',
+                            //     marginRight: 'auto',
+                            //     maxWidth: '100%',
+                            //     height: 'auto',
+                            // }}
                         />
                     </SidebarItem>
                     <SidebarItem>
