@@ -21,6 +21,8 @@ export function Certificates() {
                     type='dashboard'
                 />
                 <Typography.Paragraph style={{ marginLeft: 10 }}>
+                    <Typography.Text strong>TOEIC</Typography.Text>
+                    <br />
                     Skills: Reading, Listening <br />
                     Score: 835 / 990
                 </Typography.Paragraph>

@@ -77,13 +77,27 @@ export default function Home() {
                             <Item>
                                 <Meta
                                     avatar={<GithubOutlined />}
-                                    title='github.com/ngtankhoa'
+                                    title={
+                                        <a
+                                            href='https://github.com/ngtankhoa'
+                                            target='_blank'
+                                        >
+                                            github.com/ngtankhoa
+                                        </a>
+                                    }
                                 />
                             </Item>
                             <Item>
                                 <Meta
                                     avatar={<GitlabOutlined />}
-                                    title='gitlab.com/khoant.uit'
+                                    title={
+                                        <a
+                                            href='https://gitlab.com/khoant.uit'
+                                            target='_blank'
+                                        >
+                                            gitlab.com/khoant.uit
+                                        </a>
+                                    }
                                 />
                             </Item>
                         </List>
