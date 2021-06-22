@@ -109,7 +109,6 @@ export function Skills() {
                     {item.description.map((tech, index) => {
                         colorIndex++;
                         if (colorIndex === colorLength) colorIndex = 0;
-                        console.log(colorIndex);
                         return (
                             <Tag key={index} color={tagColor[colorIndex]}>
                                 {tech}

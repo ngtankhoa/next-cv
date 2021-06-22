@@ -16,15 +16,10 @@ import {
     GithubOutlined,
     GitlabOutlined,
 } from '@ant-design/icons';
+import { Location } from 'components';
 
 const { Item } = List;
 const { Meta } = Item;
-// const Name = styled.p`
-//     font-size: 25px;
-//     font-weight: 500;
-//     text-align: center;
-//     margin-bottom: 0;
-// `;
 
 export default function Home() {
     return (
@@ -51,17 +46,13 @@ export default function Home() {
                             alt='Picture of me.'
                             width={400}
                             height={400}
-                            // style={{
-                            //     display: 'block',
-                            //     marginLeft: 'auto',
-                            //     marginRight: 'auto',
-                            //     maxWidth: '100%',
-                            //     height: 'auto',
-                            // }}
                         />
                     </SidebarItem>
                     <SidebarItem>
                         <List>
+                            <Item>
+                                <Meta avatar={<Location />} title='217/22B Street 11, Town 4, Linh Xuan Ward, Thu Duc City' />
+                            </Item>
                             <Item>
                                 <Meta
                                     avatar={<MailOutlined />}
