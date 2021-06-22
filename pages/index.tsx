@@ -43,7 +43,7 @@ export default function Home() {
                         >
                             Nguyễn Tấn Khoa
                         </Typography.Title>
-                        </Col>
+                                </Col>
                         <Col xs={24} sm={12} lg={24} style={{display:'flex', justifyContent:'center'}}>
                         <Image
                             src='/ava.jpg'
