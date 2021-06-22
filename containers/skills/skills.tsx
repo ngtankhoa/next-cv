@@ -6,7 +6,17 @@ const data: { title: string; percent: number; description: string[] }[] = [
   {
     title: 'Collaborate',
     percent: 65,
-    description: ['VS Code', 'Yarn', 'Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
+    description: [
+      'VS Code',
+      'Yarn',
+      'Husky',
+      'lint-staged',
+      'Prettier',
+      'Git Flow',
+      'Figma',
+      'Asana',
+      'Scrum Methodology',
+    ],
   },
   {
     title: 'English',
@@ -63,11 +73,7 @@ export function Skills() {
       {data.map((item, index) => (
         <Card key={index} hoverable bordered={false}>
           <Typography.Text>{item.title}</Typography.Text>
-          {item.title !== 'Other stuff' ? (
-            <Progress percent={item.percent} format={(item) => item} />
-          ) : (
-            <br />
-          )}
+          {item.title !== 'Other stuff' ? <Progress percent={item.percent} format={(item) => item} /> : <br />}
           {item.description.map((tech, index) => {
             colorIndex++;
             if (colorIndex === colorLength) colorIndex = 0;
