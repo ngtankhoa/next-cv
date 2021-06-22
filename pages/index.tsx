@@ -6,10 +6,9 @@ import {
     Skills,
     Education,
     Experience,
-    Certificates,
+    Certificates
 } from 'containers';
-import { Main, Sidebar, Content, SidebarItem } from 'styles/pages.styled';
-import { Typography, List } from 'antd';
+import { Typography, List, Row, Col } from 'antd';
 import {
     MailOutlined,
     PhoneOutlined,
@@ -23,7 +22,7 @@ const { Meta } = Item;
 
 export default function Home() {
     return (
-        <div>
+        <>
             <Head>
                 <title>Nguyen Tan Khoa</title>
                 <meta
@@ -32,23 +31,26 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <Main>
-                <Sidebar>
-                    <SidebarItem>
+            <Row gutter={10} style={{padding:10}}>
+                <Col span={24} lg={5}>
+                    <Row gutter={10}>
+                        <Col xs={24}>
                         <Typography.Title
                             level={2}
                             style={{ textAlign: 'center' }}
                         >
                             Nguyễn Tấn Khoa
                         </Typography.Title>
+                        </Col>
+                        <Col xs={24} sm={12} lg={24} style={{display:'flex', justifyContent:'center'}}>
                         <Image
                             src='/ava.jpg'
                             alt='Picture of me.'
                             width={400}
                             height={400}
                         />
-                    </SidebarItem>
-                    <SidebarItem>
+                        </Col>
+                        <Col xs={24} sm={12} lg={24}>
                         <List>
                             <Item>
                                 <Meta avatar={<Location />} title='217/22B Street 11, Town 4, Linh Xuan Ward, Thu Duc City' />
@@ -94,17 +96,18 @@ export default function Home() {
                                 />
                             </Item>
                         </List>
-                    </SidebarItem>
-                </Sidebar>
-                <Content>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col span={24} lg={19}>
                     <Summary />
                     <Skills />
                     <Experience />
                     <Education />
                     <Certificates />
                     <Hobby />
-                </Content>
-            </Main>
-        </div>
+                </Col>
+            </Row>
+        </>
     );
 }

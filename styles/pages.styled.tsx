@@ -21,7 +21,7 @@ const SidebarItem = styled.div`
 `;
 const Content = styled.div`
     flex: 8;
-    overflow-y: auto;
+    overflow-y: scroll;
 `;
 
 export { Main, Sidebar, Content, SidebarItem };
