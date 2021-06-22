@@ -16,6 +16,7 @@ import {
     GitlabOutlined,
 } from '@ant-design/icons';
 import { Location } from 'components';
+import {Wrapper} from 'styles/pages.styled'
 
 const { Item } = List;
 const { Meta } = Item;
@@ -31,7 +32,8 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <Row gutter={10} style={{padding:10}}>
+            <Wrapper>
+            <Row gutter={10} className='row-wrapper'>
                 <Col span={24} lg={5}>
                     <Row gutter={10}>
                         <Col xs={24}>
@@ -108,6 +110,7 @@ export default function Home() {
                     <Hobby />
                 </Col>
             </Row>
+            </Wrapper>
         </>
     );
 }
