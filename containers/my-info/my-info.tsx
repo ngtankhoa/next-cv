@@ -1,5 +1,5 @@
 import { List } from 'antd';
-import { MailOutlined, PhoneOutlined, GithubOutlined, GitlabOutlined } from '@ant-design/icons';
+import { MailOutlined, PhoneOutlined, GithubOutlined, GitlabOutlined, GlobalOutlined } from '@ant-design/icons';
 import { Location } from 'components';
 
 const { Item } = List;
@@ -35,6 +35,14 @@ const data: { icon: React.ReactNode; content: string | React.ReactNode }[] = [
     content: (
       <a href='https://gitlab.com/khoant.uit' rel='noreferrer' target='_blank'>
         gitlab.com/khoant.uit
+      </a>
+    ),
+  },
+  {
+    icon: <GlobalOutlined />,
+    content: (
+      <a href='https://next-cv-amber.vercel.app/' rel='noreferrer' target='_blank'>
+        next-cv-amber.vercel.app
       </a>
     ),
   },
