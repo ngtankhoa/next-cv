@@ -1,8 +1,8 @@
 import { Title } from './title-session.styled';
 
-type props = {
+interface props {
   children: React.ReactChild;
-};
+}
 export function TitleSession({ children }: props) {
   return (
     <div>
