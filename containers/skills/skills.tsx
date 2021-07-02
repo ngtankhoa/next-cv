@@ -1,11 +1,11 @@
 import { TitleSession, InformationContainer } from 'components';
-import { Progress, Tag, Card, Typography } from 'antd';
+import { Tag, Card, Typography } from 'antd';
 import { tagColor } from 'styles/theme';
+import { Skill } from 'interfaces';
 
-const data: { title: string; percent: number; description: string[] }[] = [
+const data: Skill[] = [
   {
     title: 'Collaborate',
-    percent: 65,
     description: [
       'VS Code',
       'Yarn',
@@ -20,22 +20,18 @@ const data: { title: string; percent: number; description: string[] }[] = [
   },
   {
     title: 'English',
-    percent: Math.ceil((835 / 990) * 100) - 15,
     description: ['Excellent Listening & Reading skills', 'Good at Speaking & Writing'],
   },
   {
     title: 'HTML, CSS',
-    percent: 75,
     description: ['Flex', 'Grid', 'CSS Variable', 'Ant Design', 'Material-UI', 'styled components'],
   },
   {
     title: 'Javascript',
-    percent: 75,
     description: ['ES6 and above', 'Typescript', 'Ramda', 'IE11 compatible'],
   },
   {
     title: 'React / Next',
-    percent: 75,
     description: [
       'Functional component',
       'Hook',
@@ -49,17 +45,14 @@ const data: { title: string; percent: number; description: string[] }[] = [
   },
   {
     title: 'React Native',
-    percent: 50,
     description: ['React Native Element', 'React Native SVG', 'React Navigation', 'Async Storage'],
   },
   {
     title: 'Linux',
-    percent: 65,
     description: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'nvm', 'Shell Script', 'Cron job'],
   },
   {
     title: 'Other stuff',
-    percent: 0,
     description: ['SailsJS', 'RabbitMQ', 'Arduino'],
   },
 ];
@@ -73,7 +66,6 @@ export function Skills() {
       {data.map((item, index) => (
         <Card key={index} hoverable bordered={false}>
           <Typography.Text>{item.title}</Typography.Text>
-          {item.title !== 'Other stuff' ? <Progress percent={item.percent} format={(item) => item} /> : <br />}
           {item.description.map((tech, index) => {
             colorIndex++;
             if (colorIndex === colorLength) colorIndex = 0;
