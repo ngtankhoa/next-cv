@@ -1,27 +1,27 @@
 import styled from 'styled-components';
 
-const Main = styled.div`
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+const Wrapper = styled.div`
+  width: 100vw;
+  padding: 10px;
+  /* .row-wrapper {
+    padding: 10px;
+  } */
+  @media (min-width: 768px) {
     padding: 15px;
-    @media (max-width: 768px) {
-        height: auto;
-        flex-direction: column;
+    /* .row-wrapper {
+      padding: 15px;
+    } */
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    .row-wrapper {
+      height: 100%;
     }
-`;
-const Sidebar = styled.div`
-    flex: 2;
-`;
-const SidebarItem = styled.div`
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-`;
-const Content = styled.div`
-    flex: 8;
-    overflow-y: auto;
+    .main-content {
+      max-height: 100%;
+      overflow-y: scroll;
+    }
+  }
 `;
 
-export { Main, Sidebar, Content, SidebarItem };
+export { Wrapper };
