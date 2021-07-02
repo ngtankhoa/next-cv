@@ -41,8 +41,8 @@ const data: { icon: React.ReactNode; content: string | React.ReactNode }[] = [
   {
     icon: <GlobalOutlined />,
     content: (
-      <a href='https://next-cv-amber.vercel.app/' rel='noreferrer' target='_blank'>
-        next-cv-amber.vercel.app
+      <a href='https://nguyentankhoa.vercel.app/' rel='noreferrer' target='_blank'>
+        nguyentankhoa.vercel.app
       </a>
     ),
   },
