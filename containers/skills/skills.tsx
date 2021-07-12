@@ -24,6 +24,7 @@ const data: Skill[] = [
   {
     title: 'React / Next',
     tags: [
+      'Typescript',
       'Next.js',
       'React',
       'React Native',
@@ -33,7 +34,6 @@ const data: Skill[] = [
       'Vercel',
       'React Hook Form',
       'React Navigation',
-      'Typescript',
       'IE11 compatible',
     ],
     moreInfo:
@@ -57,8 +57,8 @@ export function Skills() {
     <InformationContainer>
       <TitleSession>Skills</TitleSession>
       {data.map((item, index) => (
-        <Card key={index} hoverable bordered={false}>
-          <Typography.Text>{item.title}: </Typography.Text>
+        <Card key={index} bordered={false} bodyStyle={{ paddingBottom: 12 }}>
+          <Typography.Text style={{ fontWeight: 'normal' }}>{item.title}: </Typography.Text>
           {item.tags.map((tech, index) => {
             colorIndex++;
             if (colorIndex === colorLength) colorIndex = 0;
@@ -68,7 +68,7 @@ export function Skills() {
               </Tag>
             );
           })}
-          <Typography.Paragraph>{item.moreInfo}</Typography.Paragraph>
+          <Typography.Paragraph style={{ marginTop: '0.5rem' }}>{item.moreInfo}</Typography.Paragraph>
         </Card>
       ))}
     </InformationContainer>
