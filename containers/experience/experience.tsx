@@ -11,7 +11,11 @@ export function Experience() {
           <Timeline.Item
           // label='06/2020 - Current'
           >
-            <Text strong>06/2020 - Current</Text>
+            <Text strong>
+              06/2020 - Current:
+              <br />
+              TGL Solutions
+            </Text>
             <br />
             Role: Front-end, Mobile developer <br />
             Knowledge achievement: React/Next, Typescript, React Native
@@ -19,7 +23,11 @@ export function Experience() {
           <Timeline.Item
           // label='09/2018 - 09 2019'
           >
-            <Text strong>09/2018 - 09 2019</Text>
+            <Text strong>
+              09/2018 - 09 2019
+              <br />
+              First Idea
+            </Text>
             <br />
             Role: Interns, Back-end web developer
             <br />
