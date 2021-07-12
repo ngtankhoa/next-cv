@@ -1,13 +1,13 @@
-import { Title } from './title-session.styled';
-
+import { Wrapper } from './title-session.styled';
+import { Typography } from 'antd';
 interface props {
   children: React.ReactChild;
 }
 export function TitleSession({ children }: props) {
   return (
-    <div>
-      <Title>{children}</Title>
+    <Wrapper>
+      <Typography.Title level={5}>{children}</Typography.Title>
       <hr />
-    </div>
+    </Wrapper>
   );
 }

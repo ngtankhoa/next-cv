@@ -65,7 +65,7 @@ export function Skills() {
       <TitleSession>Skills</TitleSession>
       {data.map((item, index) => (
         <Card key={index} hoverable bordered={false}>
-          <Typography.Text>{item.title}</Typography.Text>
+          <Typography.Text>{item.title}: </Typography.Text>
           {item.description.map((tech, index) => {
             colorIndex++;
             if (colorIndex === colorLength) colorIndex = 0;
