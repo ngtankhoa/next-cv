@@ -7,43 +7,46 @@ const data: Skill[] = [
   {
     title: 'Collaborate',
     tags: ['VS Code', 'Yarn', 'Husky', 'lint-staged', 'Prettier', 'Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
+    moreInfo:
+      "I receive design from designer's Figma, analyze and split project into tasks follows Scrum Methodology and divide it to team's members using Asana/Trello/Jira. Then I create code base with plugins like Yarn, Husky, lint-staged, Prettier, Git Flow to ensure team work.",
   },
   {
     title: 'English',
     tags: ['Excellent Listening & Reading skills', 'Good at Speaking & Writing'],
+    moreInfo:
+      "I have Excellent Listening & Reading skills with the TOEIC certificate score of 835/990. My speaking and writing skill is good enough for verbal communication. In summary I'm able to satisfy most requirements with acceptable and effective language.",
   },
   {
-    title: 'HTML, CSS',
-    tags: ['Flex', 'Grid', 'CSS Variable', 'Ant Design', 'Material-UI', 'styled components'],
-  },
-  {
-    title: 'Javascript',
-    tags: ['ES6 and above', 'Typescript', 'Ramda', 'IE11 compatible'],
+    title: 'Styling',
+    tags: ['Flex', 'Grid', 'CSS Variable', 'Ant Design', 'Material-UI', 'styled components', 'React Native Element'],
+    moreInfo: 'I can create beautiful responsive design with the help of various UI library.',
   },
   {
     title: 'React / Next',
     tags: [
-      'Functional component',
+      'NextJS',
+      'React',
+      'React Native',
       'Hook',
       'Context',
-      'React Hook Form',
       'Apollo Client',
-      'GraphQL Code Generator',
       'Vercel',
-      'Dynamic page',
+      'React Hook Form',
+      'React Navigation',
+      'Typescript',
+      'IE11 compatible',
     ],
-  },
-  {
-    title: 'React Native',
-    tags: ['React Native Element', 'React Native SVG', 'React Navigation', 'Async Storage'],
+    moreInfo:
+      'I developed many websites using NextJS/React + Typescript, use Hook + Context for state management, communicate with GraphQL server using Apollo Client, and deploy it to Vercel or using a VPS. I also have experience in Mobile Development using React Native.',
   },
   {
     title: 'Linux',
     tags: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'nvm', 'Shell Script', 'Cron job'],
+    moreInfo: "It's my hobby. I usually develop on Linux Environment and have a fond of working with terminal",
   },
   {
     title: 'Other stuff',
-    tags: ['SailsJS', 'RabbitMQ', 'Arduino'],
+    tags: ['SailsJS', 'RabbitMQ', 'Pusher', 'Arduino'],
   },
 ];
 export function Skills() {
@@ -65,6 +68,7 @@ export function Skills() {
               </Tag>
             );
           })}
+          <Typography.Paragraph>{item.moreInfo}</Typography.Paragraph>
         </Card>
       ))}
     </InformationContainer>
