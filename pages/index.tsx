@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Nguyen Tan Khoa</title>
-        <meta name='description' content='My next CV, using next also ;)' />
+        <meta name='description' content='My next CV, also using next ;)' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Wrapper>
