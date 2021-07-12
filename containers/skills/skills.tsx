@@ -1,66 +1,52 @@
 import { TitleSession, InformationContainer } from 'components';
-import { Progress, Tag, Card, Typography } from 'antd';
+import { Tag, Card, Typography } from 'antd';
 import { tagColor } from 'styles/theme';
+import { Skill } from 'interfaces';
 
-const data: { title: string; percent: number; description: string[] }[] = [
+const data: Skill[] = [
   {
     title: 'Collaborate',
-    percent: 65,
-    description: [
-      'VS Code',
-      'Yarn',
-      'Husky',
-      'lint-staged',
-      'Prettier',
-      'Git Flow',
-      'Figma',
-      'Asana',
-      'Scrum Methodology',
-    ],
+    tags: ['VS Code', 'Yarn', 'Husky', 'lint-staged', 'Prettier', 'Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
+    moreInfo:
+      "I receive the design from the designer's Figma, analyze and split the project into tasks that follow Scrum Methodology and divide it to team's members using Asana/Trello/Jira. Then I create a codebase with plugins like Yarn, Husky, lint-staged, Prettier, Git Flow to ensure teamwork.",
   },
   {
     title: 'English',
-    percent: Math.ceil((835 / 990) * 100) - 15,
-    description: ['Excellent Listening & Reading skills', 'Good at Speaking & Writing'],
+    tags: ['Excellent Listening & Reading skills', 'Good at Speaking & Writing'],
+    moreInfo:
+      "I have Excellent Listening & Reading skills with the TOEIC certificate score of 835/990. My speaking and writing skill is good enough for verbal communication. In summary, I'm able to satisfy most requirements with acceptable and effective language.",
   },
   {
-    title: 'HTML, CSS',
-    percent: 75,
-    description: ['Flex', 'Grid', 'CSS Variable', 'Ant Design', 'Material-UI', 'styled components'],
-  },
-  {
-    title: 'Javascript',
-    percent: 75,
-    description: ['ES6 and above', 'Typescript', 'Ramda', 'IE11 compatible'],
+    title: 'Styling',
+    tags: ['Flex', 'Grid', 'CSS Variable', 'Ant Design', 'Material-UI', 'styled components', 'React Native Element'],
+    moreInfo: 'I can create beautiful responsive designs with the help of various UI libraries.',
   },
   {
     title: 'React / Next',
-    percent: 75,
-    description: [
-      'Functional component',
+    tags: [
+      'Typescript',
+      'Next.js',
+      'React',
+      'React Native',
       'Hook',
       'Context',
-      'React Hook Form',
       'Apollo Client',
-      'GraphQL Code Generator',
       'Vercel',
-      'Dynamic page',
+      'React Hook Form',
+      'React Navigation',
+      'IE11 compatible',
     ],
-  },
-  {
-    title: 'React Native',
-    percent: 50,
-    description: ['React Native Element', 'React Native SVG', 'React Navigation', 'Async Storage'],
+    moreInfo:
+      'I developed many websites using NextJS/React + Typescript, use Hook + Context for state management, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
   },
   {
     title: 'Linux',
-    percent: 65,
-    description: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'nvm', 'Shell Script', 'Cron job'],
+    tags: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'nvm', 'Shell Script', 'Cron job'],
+    moreInfo: "It's my hobby. I usually develop on Linux Environment and have a fond of working with the terminal.",
   },
   {
     title: 'Other stuff',
-    percent: 0,
-    description: ['SailsJS', 'RabbitMQ', 'Arduino'],
+    tags: ['SailsJS', 'RabbitMQ', 'Pusher', 'Arduino'],
   },
 ];
 export function Skills() {
@@ -71,10 +57,9 @@ export function Skills() {
     <InformationContainer>
       <TitleSession>Skills</TitleSession>
       {data.map((item, index) => (
-        <Card key={index} hoverable bordered={false}>
-          <Typography.Text>{item.title}</Typography.Text>
-          {item.title !== 'Other stuff' ? <Progress percent={item.percent} format={(item) => item} /> : <br />}
-          {item.description.map((tech, index) => {
+        <Card key={index} bordered={false} bodyStyle={{ paddingBottom: 12 }}>
+          <Typography.Text style={{ fontWeight: 'normal' }}>{item.title}: </Typography.Text>
+          {item.tags.map((tech, index) => {
             colorIndex++;
             if (colorIndex === colorLength) colorIndex = 0;
             return (
@@ -83,6 +68,7 @@ export function Skills() {
               </Tag>
             );
           })}
+          <Typography.Paragraph style={{ marginTop: '0.5rem' }}>{item.moreInfo}</Typography.Paragraph>
         </Card>
       ))}
     </InformationContainer>

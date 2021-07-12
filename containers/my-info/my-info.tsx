@@ -1,4 +1,4 @@
-import { List } from 'antd';
+import { List, Card } from 'antd';
 import { MailOutlined, PhoneOutlined, GithubOutlined, GitlabOutlined, GlobalOutlined } from '@ant-design/icons';
 import { Location } from 'components';
 
@@ -7,20 +7,22 @@ const { Meta } = Item;
 
 export function MyInfo() {
   return (
-    <List
-      dataSource={data}
-      renderItem={(item) => (
-        <Item>
-          <Meta avatar={item.icon} title={item.content} />
-        </Item>
-      )}
-    />
+    <Card hoverable bordered={false}>
+      <List
+        dataSource={data}
+        renderItem={(item) => (
+          <Item>
+            <Meta avatar={item.icon} title={item.content} />
+          </Item>
+        )}
+      />
+    </Card>
   );
 }
 
 const data: { icon: React.ReactNode; content: string | React.ReactNode }[] = [
   { icon: <Location />, content: '217/22B Street 11, Town 4, Linh Xuan Ward, Thu Duc City' },
-  { icon: <MailOutlined />, content: 'khoant.uit@gmail.com' },
+  { icon: <MailOutlined />, content: <a href='mailto:khoant.uit@gmail.com'>khoant.uit@gmail.com</a> },
   { icon: <PhoneOutlined />, content: '+84 8 4415 0000' },
   {
     icon: <GithubOutlined />,

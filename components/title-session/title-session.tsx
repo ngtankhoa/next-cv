@@ -1,13 +1,19 @@
-import { Title } from './title-session.styled';
-
-type props = {
+import { Wrapper } from './title-session.styled';
+import { Typography } from 'antd';
+interface props {
   children: React.ReactChild;
-};
-export function TitleSession({ children }: props) {
+  rightContent?: React.ReactChild;
+}
+export function TitleSession({ children, rightContent }: props) {
   return (
-    <div>
-      <Title>{children}</Title>
+    <Wrapper>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <Typography.Title level={5} style={{ marginBottom: '0.29rem' }}>
+          {children}
+        </Typography.Title>
+        {rightContent}
+      </div>
       <hr />
-    </div>
+    </Wrapper>
   );
 }

@@ -3,14 +3,11 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   width: 100vw;
   padding: 10px;
-  /* .row-wrapper {
-    padding: 10px;
-  } */
+  .avt {
+    border-radius: 50%;
+  }
   @media (min-width: 768px) {
     padding: 15px;
-    /* .row-wrapper {
-      padding: 15px;
-    } */
   }
   @media (min-width: 992px) {
     height: 100vh;

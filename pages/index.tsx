@@ -17,7 +17,7 @@ export default function Home() {
           <Col span={24} lg={5} className='main-content'>
             <Row gutter={10}>
               <Col xs={24}>
-                <Typography.Title level={2} style={{ textAlign: 'center' }}>
+                <Typography.Title level={3} style={{ textAlign: 'center' }}>
                   Nguyễn Tấn Khoa
                 </Typography.Title>
               </Col>
@@ -26,7 +26,7 @@ export default function Home() {
                 sm={12}
                 lg={24}
                 style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                <Image src='/ava.jpg' alt='Picture of me.' width={400} height={400} />
+                <Image className='avt' src='/ava.jpg' alt='Picture of me.' width={400} height={400} />
               </Col>
               <Col xs={24} sm={12} lg={24}>
                 <MyInfo />

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-const Title = styled.span`
-  font-weight: 700;
-  font-size: 18px;
+const Wrapper = styled.div`
+  hr {
+    margin-top: 0px;
+  }
 `;
-export { Title };
+export { Wrapper };
