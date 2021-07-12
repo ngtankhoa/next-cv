@@ -24,7 +24,7 @@ const data: Skill[] = [
   {
     title: 'React / Next',
     tags: [
-      'NextJS',
+      'Next.js',
       'React',
       'React Native',
       'Hook',
