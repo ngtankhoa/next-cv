@@ -8,18 +8,18 @@ const data: Skill[] = [
     title: 'Collaborate',
     tags: ['VS Code', 'Yarn', 'Husky', 'lint-staged', 'Prettier', 'Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
     moreInfo:
-      "I receive design from designer's Figma, analyze and split project into tasks follows Scrum Methodology and divide it to team's members using Asana/Trello/Jira. Then I create code base with plugins like Yarn, Husky, lint-staged, Prettier, Git Flow to ensure team work.",
+      "I receive the design from the designer's Figma, analyze and split the project into tasks that follow Scrum Methodology and divide it to team's members using Asana/Trello/Jira. Then I create a codebase with plugins like Yarn, Husky, lint-staged, Prettier, Git Flow to ensure teamwork.",
   },
   {
     title: 'English',
     tags: ['Excellent Listening & Reading skills', 'Good at Speaking & Writing'],
     moreInfo:
-      "I have Excellent Listening & Reading skills with the TOEIC certificate score of 835/990. My speaking and writing skill is good enough for verbal communication. In summary I'm able to satisfy most requirements with acceptable and effective language.",
+      "I have Excellent Listening & Reading skills with the TOEIC certificate score of 835/990. My speaking and writing skill is good enough for verbal communication. In summary, I'm able to satisfy most requirements with acceptable and effective language.",
   },
   {
     title: 'Styling',
     tags: ['Flex', 'Grid', 'CSS Variable', 'Ant Design', 'Material-UI', 'styled components', 'React Native Element'],
-    moreInfo: 'I can create beautiful responsive design with the help of various UI library.',
+    moreInfo: 'I can create beautiful responsive designs with the help of various UI libraries.',
   },
   {
     title: 'React / Next',
@@ -37,12 +37,12 @@ const data: Skill[] = [
       'IE11 compatible',
     ],
     moreInfo:
-      'I developed many websites using NextJS/React + Typescript, use Hook + Context for state management, communicate with GraphQL server using Apollo Client, and deploy it to Vercel or using a VPS. I also have experience in Mobile Development using React Native.',
+      'I developed many websites using NextJS/React + Typescript, use Hook + Context for state management, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
   },
   {
     title: 'Linux',
     tags: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'nvm', 'Shell Script', 'Cron job'],
-    moreInfo: "It's my hobby. I usually develop on Linux Environment and have a fond of working with terminal",
+    moreInfo: "It's my hobby. I usually develop on Linux Environment and have a fond of working with the terminal.",
   },
   {
     title: 'Other stuff',
