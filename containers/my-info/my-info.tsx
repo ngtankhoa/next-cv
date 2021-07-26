@@ -1,5 +1,12 @@
 import { List, Card } from 'antd';
-import { MailOutlined, PhoneOutlined, GithubOutlined, GitlabOutlined, GlobalOutlined } from '@ant-design/icons';
+import {
+  MailOutlined,
+  PhoneOutlined,
+  GithubOutlined,
+  GitlabOutlined,
+  GlobalOutlined,
+  DownloadOutlined,
+} from '@ant-design/icons';
 import { Location } from 'components';
 
 const { Item } = List;
@@ -45,6 +52,14 @@ const data: { icon: React.ReactNode; content: string | React.ReactNode }[] = [
     content: (
       <a href='https://nguyentankhoa.vercel.app/' rel='noreferrer' target='_blank'>
         nguyentankhoa.vercel.app
+      </a>
+    ),
+  },
+  {
+    icon: <DownloadOutlined />,
+    content: (
+      <a href='/CV_NguyenTanKhoa.pdf' rel='noreferrer' target='_blank'>
+        Download as PDF
       </a>
     ),
   },
