@@ -18,7 +18,7 @@ const data: Skill[] = [
   },
   {
     title: 'Styling',
-    tags: ['Flex', 'Grid', 'CSS Variable', 'Ant Design', 'Material-UI', 'styled components', 'React Native Element'],
+    tags: ['Flex', 'Grid', 'Tailwind CSS', 'Ant Design', 'Material-UI', 'styled components', 'React Native Element'],
     moreInfo: 'I can create beautiful responsive designs with the help of various UI libraries.',
   },
   {
@@ -28,16 +28,17 @@ const data: Skill[] = [
       'Next.js',
       'React',
       'React Native',
-      'Hook',
-      'Context',
+      'PWA Studio',
+      'Format.JS',
       'Apollo Client',
+      'Redux Toolkit',
       'Vercel',
       'React Hook Form',
       'React Navigation',
       'IE11 compatible',
     ],
     moreInfo:
-      'I developed many websites using NextJS/React + Typescript, use Hook + Context for state management, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
+      'I developed many websites using NextJS/React + Typescript, use Redux Toolkit for state management, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
   },
   {
     title: 'Linux',
@@ -46,7 +47,7 @@ const data: Skill[] = [
   },
   {
     title: 'Other stuff',
-    tags: ['SailsJS', 'RabbitMQ', 'Pusher', 'Arduino'],
+    tags: ['RabbitMQ', 'Pusher', 'Arduino'],
   },
 ];
 export function Skills() {
