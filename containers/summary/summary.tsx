@@ -19,8 +19,8 @@ export function Summary() {
             Hi, I&apos;m Nguyen Tan Khoa, a two-year experience Developer specializing in Front-end web and Mobile
             development.
             <br />
-            In a normal work flow, I receive design from Figma, split them into reusable parts and make components base
-            on that.
+            In a normal workflow, I receive Figma designs, split them into reusable parts, and make components based on
+            them.
           </Typography.Paragraph>
         </Card>
       </InformationContainer>
