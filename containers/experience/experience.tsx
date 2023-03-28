@@ -17,16 +17,17 @@ export function Experience() {
               Legato Technologies Limited
             </Text>
             <br />
-            Role: Front-end.
+            Role: Front-end developer.
             <br />
             Knowledge achievement: React/Next, Typescript, PWA Studio, working with Magento APIs, working with
-            E-Commerce backend
+            E-Commerce backend.
             <br />
             Project:
             <ul>
               <li>Kowloon Dairy: E-commerce websites and App for Kowloon Dairy, a milk brand in Hong Kong.</li>
               <li>Green Common: Online Plant-based Grocery Store in Hong Kong.</li>
               <li>Nefful: an eCommerce application with a membership system for Nefful company.</li>
+              <li>MRR: a front-end mobile application for MRR - Mobile Repair & Recycle.</li>
             </ul>
           </Timeline.Item>
           <Timeline.Item
