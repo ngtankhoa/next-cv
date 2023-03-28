@@ -16,7 +16,7 @@ export function Summary() {
         </TitleSession>
         <Card hoverable bordered={false}>
           <Typography.Paragraph>
-            Hi, I&apos;m Nguyen Tan Khoa, a two-year experience Developer specializing in Front-end web and Mobile
+            Hi, I&apos;m Nguyen Tan Khoa, a 3.5 year experience Developer specializing in Front-end web and Mobile
             development.
             <br />
             In a normal workflow, I receive Figma designs, split them into reusable parts, and make components based on
