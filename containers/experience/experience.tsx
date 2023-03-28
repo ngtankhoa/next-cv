@@ -12,7 +12,28 @@ export function Experience() {
           // label='06/2020 - Current'
           >
             <Text strong>
-              06/2020 - Current:
+              08/2021 - Current:
+              <br />
+              Legato Technologies Limited
+            </Text>
+            <br />
+            Role: Front-end.
+            <br />
+            Knowledge achievement: React/Next, Typescript, PWA Studio, working with Magento APIs, working with
+            E-Commerce backend
+            <br />
+            Project:
+            <ul>
+              <li>Kowloon Dairy: E-commerce websites and App for Kowloon Dairy, a milk brand in Hong Kong.</li>
+              <li>Green Common: Online Plant-based Grocery Store in Hong Kong.</li>
+              <li>Nefful: an eCommerce application with a membership system for Nefful company.</li>
+            </ul>
+          </Timeline.Item>
+          <Timeline.Item
+          // label='06/2020 - Current'
+          >
+            <Text strong>
+              06/2020 - 08/2021:
               <br />
               TGL Solutions
             </Text>
