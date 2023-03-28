@@ -36,6 +36,8 @@ const data: Skill[] = [
       'React Hook Form',
       'React Navigation',
       'IE11 compatible',
+      'PWA Studio',
+      'React Hook Form',
     ],
     moreInfo:
       'I developed many websites using NextJS/React + Typescript, use Redux Toolkit for state management, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
@@ -64,7 +66,7 @@ export function Skills() {
             colorIndex++;
             if (colorIndex === colorLength) colorIndex = 0;
             return (
-              <Tag key={index} color={tagColor[colorIndex]}>
+              <Tag key={index} color={tagColor[colorIndex]} style={{ marginBottom: 3 }}>
                 {tech}
               </Tag>
             );
