@@ -35,8 +35,8 @@ export default function Home() {
           </Col>
           <Col span={24} lg={19} className='main-content'>
             <Summary />
-            <Skills />
             <Experience />
+            <Skills />
             <Education />
             <Certificates />
             <Hobby />
