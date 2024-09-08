@@ -7,7 +7,7 @@ export function Hobby() {
     <InformationContainer>
       <TitleSession>Hobby</TitleSession>
       <Card hoverable bordered={false}>
-        <Paragraph>Walking, Traveling, Listening to Music</Paragraph>
+        <Paragraph>Walking, Backpacking, Listening to Music</Paragraph>
       </Card>
     </InformationContainer>
   );
