@@ -16,11 +16,13 @@ export function Summary() {
         </TitleSession>
         <Card hoverable bordered={false}>
           <Typography.Paragraph>
-            Hi, I&apos;m Nguyen Tan Khoa, a 3.5 year experience Developer specializing in Front-end web and Mobile
+            Hi, I&apos;m Nguyen Tan Khoa, a 6-year experienced Developer specializing in Front-end web and Mobile
             development.
             <br />
-            In a normal workflow, I receive Figma designs, split them into reusable parts, and make components based on
-            them.
+            In my typical workflow, I receive Figma designs, break them down into reusable components, and build the
+            necessary parts based on these designs.
+            <br />I have extensive experience in developing high-performance eCommerce websites using PWA Studio, which
+            allows for creating fast, reliable, and scalable Progressive Web Apps.
           </Typography.Paragraph>
         </Card>
       </InformationContainer>
