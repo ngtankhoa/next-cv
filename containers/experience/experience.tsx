@@ -24,10 +24,16 @@ export function Experience() {
             <br />
             Project:
             <ul>
-              <li>Kowloon Dairy: E-commerce websites and App for Kowloon Dairy, a milk brand in Hong Kong.</li>
-              <li>Green Common: Online Plant-based Grocery Store in Hong Kong.</li>
-              <li>Nefful: an eCommerce application with a membership system for Nefful company.</li>
-              <li>MRR: a front-end mobile application for MRR - Mobile Repair & Recycle.</li>
+              <li>
+                Kowloon Dairy: E-commerce websites and App for Kowloon Dairy, a milk brand in Hong Kong. Built using
+                PWA-Studio.
+              </li>
+              <li>Green Common: Online Plant-based Grocery Store in Hong Kong. Built using PWA-Studio.</li>
+              <li>
+                Nefful: An eCommerce application with a membership system for Nefful company. Built using PWA-Studio.
+              </li>
+              <li>MRR: A front-end mobile application for MRR - Mobile Repair & Recycle.</li>
+              <li>TOA-OMS: An Order Management System for Taste of Asia Group </li>
             </ul>
           </Timeline.Item>
           <Timeline.Item
