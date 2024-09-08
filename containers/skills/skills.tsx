@@ -6,7 +6,18 @@ import { Skill } from 'interfaces';
 const data: Skill[] = [
   {
     title: 'Collaborate',
-    tags: ['VS Code', 'Yarn', 'Husky', 'lint-staged', 'Prettier', 'Git Flow', 'Figma', 'Asana', 'Scrum Methodology'],
+    tags: [
+      'VS Code',
+      'Yarn',
+      'nvm',
+      'pnpm',
+      'Husky',
+      'lint-staged',
+      'Prettier',
+      'Git Flow',
+      'Figma',
+      'Scrum Methodology',
+    ],
     moreInfo:
       "I receive the design from the designer's Figma, analyze and split the project into tasks that follow Scrum Methodology and divide it to team's members using Asana/Trello/Jira. Then I create a codebase with plugins like Yarn, Husky, lint-staged, Prettier, Git Flow to ensure teamwork.",
   },
@@ -18,11 +29,11 @@ const data: Skill[] = [
   },
   {
     title: 'Styling',
-    tags: ['Flex', 'Grid', 'Tailwind CSS', 'Ant Design', 'Material-UI', 'styled components', 'React Native Element'],
+    tags: ['Flex', 'Grid', 'Tailwind CSS', 'Ant Design', 'Material-UI', 'styled components'],
     moreInfo: 'I can create beautiful responsive designs with the help of various UI libraries.',
   },
   {
-    title: 'React / Next',
+    title: 'React / Next.js',
     tags: [
       'Typescript',
       'Next.js',
@@ -32,11 +43,13 @@ const data: Skill[] = [
       'Format.JS',
       'Apollo Client',
       'Redux Toolkit',
+      'Zustand',
+      'Firebase',
+      'Workbox',
+      'Progressive Web Applications (PWAs)',
       'Vercel',
       'React Hook Form',
       'React Navigation',
-      'IE11 compatible',
-      'PWA Studio',
       'React Hook Form',
     ],
     moreInfo:
@@ -44,7 +57,7 @@ const data: Skill[] = [
   },
   {
     title: 'Linux',
-    tags: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'nvm', 'Shell Script', 'Cron job'],
+    tags: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'Shell Script', 'Cron job'],
     moreInfo: "It's my hobby. I usually develop on Linux Environment and have a fond of working with the terminal.",
   },
   {
