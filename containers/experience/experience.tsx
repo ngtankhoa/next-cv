@@ -17,11 +17,34 @@ export function Experience() {
               Legato Technologies Limited
             </Text>
             <br />
-            Role: Front-end developer.
+            Role: Front-end developer / Team Lead.
             <br />
-            Knowledge achievement: React/Next, Typescript, PWA Studio, working with Magento APIs, working with
-            E-Commerce backend.
+            Technologies: React, Next.js, TypeScript, PWA Studio, working with Magento APIs, E-Commerce backend.
             <br />
+            Key Responsibilities & Achievements:
+            <ul>
+              <li>
+                Led the development of high-performance eCommerce solutions using PWA Studio, ensuring scalability,
+                reliability, and efficiency across projects.
+              </li>
+              <li>
+                Collaborated closely with multiple stakeholders, including Magento CMS, Android app, iOS app, Design
+                teams, Project Managers, and other key stakeholders to ensure seamless integration and alignment across
+                platforms.
+              </li>
+              <li>
+                Managed a team of front-end developers, providing mentorship and technical guidance, conducting code
+                reviews, and ensuring the delivery of high-quality, reusable components.
+              </li>
+              <li>
+                Developed strong research skills, exploring new technologies and ensuring the application of best
+                practices throughout the development lifecycle.
+              </li>
+              <li>
+                Improved presentation and communication skills, enabling clear and effective collaboration with
+                stakeholders and team members across different teams and roles.
+              </li>
+            </ul>
             Project:
             <ul>
               <li>
