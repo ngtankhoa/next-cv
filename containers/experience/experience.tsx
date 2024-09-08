@@ -29,8 +29,8 @@ export function Experience() {
               </li>
               <li>
                 Collaborated closely with multiple stakeholders, including Magento CMS, Android app, iOS app, Design
-                teams, Project Managers, and other key stakeholders to ensure seamless integration and alignment across
-                platforms.
+                teams, Project Managers, and other key stakeholders in both Vietnam and Hong Kong to ensure seamless
+                integration and alignment across platforms.
               </li>
               <li>
                 Managed a team of front-end developers, providing mentorship and technical guidance, conducting code
@@ -42,7 +42,7 @@ export function Experience() {
               </li>
               <li>
                 Improved presentation and communication skills, enabling clear and effective collaboration with
-                stakeholders and team members across different teams and roles.
+                stakeholders and team members across different teams and roles in Vietnam and Hong Kong.
               </li>
             </ul>
             Project:
@@ -57,6 +57,13 @@ export function Experience() {
               </li>
               <li>MRR: A front-end mobile application for MRR - Mobile Repair & Recycle.</li>
               <li>TOA-OMS: An Order Management System for Taste of Asia Group </li>
+            </ul>
+            References: <strong>Mr. Thanh Vo</strong>
+            <br />
+            <ul style={{ listStyleType: 'none' }}>
+              <li>Assistant Software Manager</li>
+              <li>Email: thanh.vo@legato.co</li>
+              <li>Phone: +84 9 0405 4241</li>
             </ul>
           </Timeline.Item>
           <Timeline.Item
