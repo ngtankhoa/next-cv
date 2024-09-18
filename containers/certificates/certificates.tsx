@@ -20,6 +20,10 @@ export function Certificates() {
           <br />
           Skills: Reading, Listening <br />
           Score: 835 / 990
+          <br />
+          <a href='/TOEIC_certificate.pdf' rel='noreferrer' target='_blank'>
+            View certificate
+          </a>
         </Typography.Paragraph>
       </Card>
       {/* <List>
