@@ -21,7 +21,7 @@ export function Certificates() {
           Skills: Reading, Listening <br />
           Score: 835 / 990
           <br />
-          <a href='/TOEIC_certificate.pdf' rel='noreferrer' target='_blank'>
+          <a href='https://nguyentankhoa.vercel.app/TOEIC_certificate.pdf' rel='noreferrer' target='_blank'>
             View certificate
           </a>
         </Typography.Paragraph>

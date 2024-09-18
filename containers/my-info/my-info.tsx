@@ -58,7 +58,7 @@ const data: { icon: React.ReactNode; content: string | React.ReactNode }[] = [
   {
     icon: <DownloadOutlined />,
     content: (
-      <a href='/CV_NguyenTanKhoa.pdf' rel='noreferrer' target='_blank'>
+      <a href='https://nguyentankhoa.vercel.app/CV_NguyenTanKhoa.pdf' rel='noreferrer' target='_blank'>
         Download as PDF
       </a>
     ),
