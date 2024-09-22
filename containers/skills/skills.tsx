@@ -6,18 +6,7 @@ import { Skill } from 'interfaces';
 const data: Skill[] = [
   {
     title: 'Collaborate',
-    tags: [
-      'VS Code',
-      'Yarn',
-      'nvm',
-      'pnpm',
-      'Husky',
-      'lint-staged',
-      'Prettier',
-      'Git Flow',
-      'Figma',
-      'Scrum Methodology',
-    ],
+    tags: ['VS Code', 'Yarn', 'pnpm', 'Husky', 'lint-staged', 'Prettier', 'Git Flow', 'Figma', 'Scrum Methodology'],
     moreInfo:
       "I receive the design from the designer's Figma, analyze and split the project into tasks that follow Scrum Methodology and divide it to team's members using Asana/Trello/Jira. Then I create a codebase with plugins like Yarn, Husky, lint-staged, Prettier, Git Flow to ensure teamwork.",
   },
@@ -41,15 +30,13 @@ const data: Skill[] = [
       'React Native',
       'PWA Studio',
       'Format.JS',
-      'Apollo Client',
+      'GraphQL',
       'Redux Toolkit',
       'Zustand',
       'Firebase',
       'Workbox',
       'Progressive Web Applications (PWAs)',
       'Vercel',
-      'React Hook Form',
-      'React Navigation',
       'React Hook Form',
     ],
     moreInfo:
