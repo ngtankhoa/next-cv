@@ -12,7 +12,7 @@ export function Experience() {
           // label='06/2020 - Current'
           >
             <Text strong>
-              08/2021 - Current:
+              08/2021 - 10/2024:
               <br />
               Legato Technologies Limited
             </Text>
@@ -98,7 +98,7 @@ export function Experience() {
           // label='09/2018 - 09 2019'
           >
             <Text strong>
-              09/2018 - 09 2019
+              09/2018 - 09/2019
               <br />
               First Interactive Technology
             </Text>
