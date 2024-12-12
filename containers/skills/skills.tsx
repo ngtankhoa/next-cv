@@ -18,7 +18,7 @@ const data: Skill[] = [
   },
   {
     title: 'Styling',
-    tags: ['Flex', 'Grid', 'Tailwind CSS', 'Ant Design', 'Material-UI', 'styled components'],
+    tags: ['Flex', 'Grid', 'Tailwind CSS', 'shadcn/ui'],
     moreInfo: 'I can create beautiful responsive designs with the help of various UI libraries.',
   },
   {
@@ -27,24 +27,22 @@ const data: Skill[] = [
       'Typescript',
       'Next.js',
       'React',
-      'React Native',
       'PWA Studio',
       'Format.JS',
       'GraphQL',
-      'Redux Toolkit',
-      'Zustand',
+      'React Context',
       'Firebase',
       'Workbox',
       'Progressive Web Applications (PWAs)',
-      'Vercel',
       'React Hook Form',
+      'JSON Web Tokens',
     ],
     moreInfo:
       'I developed many websites using NextJS/React + Typescript, use Redux Toolkit for state management, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
   },
   {
     title: 'Linux',
-    tags: ['Ubuntu', 'Pop!_OS', 'Arch Wiki', 'ZSH', 'Shell Script', 'Cron job'],
+    tags: ['Ubuntu', 'ZSH', 'Shell Script', 'Cron job'],
     moreInfo: "It's my hobby. I usually develop on Linux Environment and have a fond of working with the terminal.",
   },
   {
