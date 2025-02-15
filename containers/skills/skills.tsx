@@ -38,7 +38,7 @@ const data: Skill[] = [
       'JSON Web Tokens',
     ],
     moreInfo:
-      'I developed many websites using NextJS/React + Typescript, use Redux Toolkit for state management, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
+      'I developed many websites using NextJS/React + Typescript, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
   },
   {
     title: 'Linux',
