@@ -28,13 +28,11 @@ const data: Skill[] = [
       'Next.js',
       'React',
       'PWA Studio',
-      'Format.JS',
       'GraphQL',
       'React Context',
       'Firebase',
       'Workbox',
       'Progressive Web Applications (PWAs)',
-      'React Hook Form',
       'JSON Web Tokens',
     ],
     moreInfo:
