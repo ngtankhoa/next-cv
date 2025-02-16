@@ -39,14 +39,14 @@ const data: { icon: React.ReactNode; content: string | React.ReactNode }[] = [
       </a>
     ),
   },
-  {
-    icon: <GitlabOutlined />,
-    content: (
-      <a href='https://gitlab.com/khoant.uit' rel='noreferrer' target='_blank'>
-        gitlab.com/khoant.uit
-      </a>
-    ),
-  },
+  // {
+  //   icon: <GitlabOutlined />,
+  //   content: (
+  //     <a href='https://gitlab.com/khoant.uit' rel='noreferrer' target='_blank'>
+  //       gitlab.com/khoant.uit
+  //     </a>
+  //   ),
+  // },
   {
     icon: <GlobalOutlined />,
     content: (
