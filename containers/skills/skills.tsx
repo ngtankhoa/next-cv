@@ -22,8 +22,9 @@ const data: Skill[] = [
     moreInfo: 'I can create beautiful responsive designs with the help of various UI libraries.',
   },
   {
-    title: 'React / Next.js',
+    title: 'Frontend Libraries / Frameworks',
     tags: [
+      'Astro',
       'Typescript',
       'Next.js',
       'React',
@@ -36,7 +37,7 @@ const data: Skill[] = [
       'JSON Web Tokens',
     ],
     moreInfo:
-      'I developed many websites using NextJS/React + Typescript, communicate with GraphQL server using Apollo Client and deploy it to Vercel or VPS. I also have experience in Mobile Development using React Native.',
+      'I have developed many websites using Next.js/React + TypeScript, communicating with GraphQL servers via Apollo Client and deploying them to Vercel or VPS. I also have experience in mobile development using React Native and have used Astro to build high-performance websites.',
   },
   {
     title: 'Linux',

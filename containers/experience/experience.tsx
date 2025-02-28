@@ -8,16 +8,28 @@ export function Experience() {
       <TitleSession>Experience</TitleSession>
       <Card hoverable bordered={false}>
         <Timeline>
-          <Timeline.Item
-          // label='06/2020 - Current'
-          >
+          <Timeline.Item>
+            <Text strong>
+              11/2024 - 01/2025
+              <br />
+              Freelancer
+            </Text>
+            <br />
+            Knowledge achievement: Server and Client Composition Patterns, Astro framework
+            <br />
+            Project:
+            <ul>
+              <li>Ha Giang Voyage: A website promoting tourism in Ha Giang.</li>
+            </ul>
+          </Timeline.Item>
+          <Timeline.Item>
             <Text strong>
               08/2021 - 10/2024:
               <br />
               Legato Technologies Limited
             </Text>
             <br />
-            Role: Front-end developer / Team Lead.
+            Roles: Front-end developer / Team Lead.
             <br />
             Technologies: React, Next.js, TypeScript, PWA Studio, working with Magento APIs, E-Commerce backend.
             <br />
@@ -75,7 +87,7 @@ export function Experience() {
               TGL Solutions
             </Text>
             <br />
-            Role: Front-end, Mobile developer.
+            Roles: Front-end, Mobile developer.
             <br />
             Knowledge achievement: React/Next, Typescript, React Native, Pusher.
             <br />
@@ -103,7 +115,7 @@ export function Experience() {
               First Interactive Technology
             </Text>
             <br />
-            Role: Interns, Back-end web developer.
+            Roles: Interns, Back-end web developer.
             <br />
             Knowledge achievement: HTML, CSS, JavaScript, SailsJS, Arduino, RabbitMQ.
             <br />
