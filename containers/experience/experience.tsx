@@ -15,8 +15,17 @@ export function Experience() {
               Freelancer
             </Text>
             <br />
-            Knowledge achievement: Next.js Server and Client Composition Patterns, Astro framework
+            Role: Software Engineer.
             <br />
+            Technologies: Next.js, TypeScript, Astro, Cloudflare CDN, TailwindCSS, shadcn/ui.
+            <br />
+            Knowledge achievement:
+            <ul>
+              <li>Next.js Server and Client Composition Patterns</li>
+              <li>Improved SEO optimization techniques.</li>
+              <li>Learning Astro framework, reduces client-side JavaScript for better UX.</li>
+              <li>Implemented caching strategies using Cloudflare CDN for better performance.</li>
+            </ul>
             Project:
             <ul>
               <li>Ha Giang Voyage: A website promoting tourism in Ha Giang.</li>
