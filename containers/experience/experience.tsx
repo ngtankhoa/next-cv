@@ -15,7 +15,7 @@ export function Experience() {
               Freelancer
             </Text>
             <br />
-            Knowledge achievement: Server and Client Composition Patterns, Astro framework
+            Knowledge achievement: Next.js Server and Client Composition Patterns, Astro framework
             <br />
             Project:
             <ul>
